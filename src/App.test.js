@@ -11,7 +11,6 @@ it('includes input', () => {
   expect(app.containsMatchingElement(<input />)).toEqual(true)
 });
 
-
 it('includes UsersList', () => {
   const app = shallow(<App />);
   expect(app.containsMatchingElement(<UsersList />)).toEqual(true)
